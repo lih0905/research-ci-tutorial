@@ -12,9 +12,9 @@
 
 <a href="https://codeclimate.com/github/lih0905/research-ci-tutorial/test_coverage"><img src="https://api.codeclimate.com/v1/badges/b76879ccdbf3a6f7b18a/test_coverage" /></a>
 
-	* Code Climate 에서 레포 연동 후 `Repo Settings > Test Coverage` 에서 토큰 복사하여 `coverage.yml` 파일에 붙여넣어야 함
-	* `Repo Settings > Github` 에서 연동 설정해야 함
-	
+* Code Climate 에서 레포 연동 후 `Repo Settings > Test Coverage` 에서 토큰 복사하여 `coverage.yml` 파일에 붙여넣어야 함
+* `Repo Settings > Github` 에서 연동 설정해야 함
+
 ## Requirements
 
 ```
