@@ -1,6 +1,8 @@
 # Github CI tutorial
 
-인프런 [머신러닝 엔지니어 실무]() 강의 중 '리서치 코드 품질 관리' 섹션 강의 내용을 이용하여 CI 설정한 레포.
+인프런 [머신러닝 엔지니어 실무]() 강의 중 '리서치 코드 품질 관리' 섹션 강의 내용을 이용하여 CI 설정한 레포. Pull Requests 내역을 살펴보면 main 브랜치에 병합 시 자동으로 몇 가지 테스트를 수행하는 것(CI)을 확인할 수 있다.
+
+## 설정 순서
 
 1. `.github/workflows/lint.yml` 설정을 통해 `black` 테스트를 통과하는지 체크
 
@@ -12,9 +14,9 @@
 
 <a href="https://codeclimate.com/github/lih0905/research-ci-tutorial/test_coverage"><img src="https://api.codeclimate.com/v1/badges/b76879ccdbf3a6f7b18a/test_coverage" /></a>
 
-	* Code Climate 에서 레포 연동 후 `Repo Settings > Test Coverage` 에서 토큰 복사하여 `coverage.yml` 파일에 붙여넣어야 함
-	* `Repo Settings > Github` 에서 연동 설정해야 함
-	
+* Code Climate 에서 레포 연동 후 `Repo Settings > Test Coverage` 에서 토큰 복사하여 `coverage.yml` 파일에 붙여넣어야 함
+* `Repo Settings > Github` 에서 연동 설정해야 함
+
 ## Requirements
 
 ```
